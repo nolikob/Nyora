@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@media(max-width: 767px) {
+    #index_header {
+        position: relative;
+        display: block;
+        margin: auto;
+        top: 25vh;
+        color: white;
+        text-align: center;
+    }
+    #main_content {
+        margin-top: 250px;
+        font-size: 1.8rem;
+        box-shadow: 0px -8px 15px black;
+        background-color: #EDE7F6;
+        padding-bottom: 3rem;
+    }
+    button {
+        width: auto;
+        align-items: center;
+    }
+    nav div a.col-sm-4 {
+        font-size: 2rem;
+        color: white;
+        text-align: center;
+        display: block;
+        margin-top: 2rem;
+    }
+    form label {
+        display: block;
+        font-family: 'Raleway', sans-serif;
+        letter-spacing: 1.5px;
+        text-align: center;
+    }
+    form input {
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+    nav div button {
+        background-color: #6B4BAC !important;
+        border-color: transparent !important;
+    }
+    .modal-content {
+        border-radius: 0px !important;
+    }
+    .submit_buttons {
+        background-color: #6B4BAC;
+        color: white;
+        display: block;
+        width: 100%;
+        position: relative;
+        height: 5vh;
+        border-color: transparent;
+    }
+    .submit_buttons:hover {
+        background-color: #6B4CDF;
+    }
+    #main_content h1 {
+        text-align: center;
+    }
+    .navbar {
+        position: sticky;
+        width: 100%;
+        z-index: 5;
+        top: 0;
+    }
+    #navbar {
+        margin-top: 50px;
+        position: absolute;
+        background-color: #222;
+        left: 0;
+    }
+    .modal-dialog .modal.in {
+        position: absolute;
+        top: 25% !important;
+        font-size: 3rem;
+        height: 50vh !important;
+    }
+    .modal input[type="text"],
+    input[type="password"],
+    input[type="email"] {
+        width: 90%;
+        height: 7vh;
+    }
+    .submit_buttons {
+        background-color: #6B4BAC;
+        color: white;
+        display: block;
+        width: 100%;
+        position: relative;
+        height: 4vh;
+        margin-bottom: 0px;
+        border-color: transparent;
+    }
+    .modal-title {
+        font-size: 4rem;
+        border-bottom: 2px solid black;
+    }
+    #index_header {
+        display: block;
+        position: relative;
+    }
+    #index_header img {
+        max-height: 100%;
+        max-width: 100%;
+    }
+    #index_header h1 {
+        display: block;
+        font-size: 2rem;
+        color: white;
+    }
+    .modal-content {
+        border-radius: 0px !important;
+    }
+    .submit_buttons {
+        background-color: #6B4BAC;
+        color: white;
+        display: block;
+        width: 100%;
+        position: relative;
+        height: 9vh;
+        border-color: transparent;
+    }
+    .submit_buttons:hover {
+        background-color: #6B4CDF;
+    }
+    .col-xs-12>a {
+        font-size: 24px;
+        text-align: center;
+        float: none;
+        display: block;
+        width: 100%;
+        padding: 2rem;
+    }
+    .modal {
+        background-blend-mode: exclusion;
+    }
+    .modal label {
+        font-size: 2rem;
+    }
+    .modal-header {
+        text-align: center;
+    }
+    footer {
+        color: white;
+        text-align: center;
+        line-height: inherit;
+        vertical-align: center;
+        background-color: #444444;
+        height: 10rem;
+        display: flex;
+        align-items: center;
+        justify-content: center
+    }
+    nav div a.col-xs-12 {
+        font-size: 2rem;
+        text-align: center;
+        color: white;
+        display: block;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    nav div.col-xs-12 {
+        background-color: transparent;
+    }
+    #mobile_text {
+        font-size: 2rem;
+        display: inline-block;
+        color: white;
+        margin-top: -20px;
+    }
+    #descritpion_long {
+        display: block;
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+}
+
+body {
+    background-color: #3c3b69;
+    background-image: url("../img/home_bg.jpg");
+    background-blend-mode: exclusion;
+    background-repeat: no-repeat no-repeat;
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+header {
+    display: block;
+    background-blend-mode: difference;
+    position: relative;
+    height: 70vh;
+}
+
+.filling_info:nth-child(odd) img {
+    float: left;
+}
+
+.filling_info:nth-child(even) img {
+    float: right;
+}
+
+@media (min-width: 768px) {
+    #main_content h1 {
+        text-align: center;
+    }
+    nav {
+        position: relative;
+        display: block;
+        margin-top: 1rem;
+        font-size: 2rem;
+    }
+    nav div a {
+        color: white;
+        border-bottom: 4px solid transparent;
+        transition: border .5s linear;
+        text-align: center;
+    }
+    nav div a:hover,
+    nav div a:active,
+    nav div a:visited {
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        border-bottom: 4px solid white;
+    }
+    .col-md-2>a {
+        display: inline-block;
+        font-size: 1.8rem;
+        margin-top: 1rem;
+        text-align: center;
+    }
+    button {
+        width: auto;
+        align-items: center;
+    }
+    nav div a.col-sm-4 {
+        font-size: 2rem;
+        color: white;
+        text-align: center;
+        display: block;
+        margin-top: 2rem;
+    }
+    form label {
+        display: block;
+        font-family: 'Raleway', sans-serif;
+        letter-spacing: 1.5px;
+        text-align: center;
+    }
+    form input {
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+    nav div button {
+        background-color: #6B4BAC !important;
+        border-color: transparent !important;
+    }
+    .modal-content {
+        border-radius: 0px !important;
+    }
+    .submit_buttons {
+        background-color: #6B4BAC;
+        color: white;
+        display: block;
+        width: 100%;
+        position: relative;
+        height: 5vh;
+        border-color: transparent;
+    }
+    .submit_buttons:hover {
+        background-color: #6B4CDF;
+    }
+    #main_content {
+        margin-top: 250px;
+        font-size: 1.8rem;
+        box-shadow: 0px -8px 15px black;
+        background-color: #EDE7F6;
+        padding-bottom: 3rem;
+    }
+    .filling_info {
+        display: block;
+        /*width: 100%;*/
+        padding-bottom: 5rem;
+    }
+    #descritpion_long {
+        display: block;
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+    .text-center {
+        padding: 6rem;
+        font-size: 2rem;
+        color: #555555;
+    }
+    #index_header {
+        position: relative;
+        display: block;
+        margin: auto;
+        top: 25vh;
+        color: white;
+        text-align: center;
+        transform: scale(0.95);
+        transition: all .5s;
+    }
+    #index_header:hover {
+        transform: scale(1);
+    }
+    .interaction {
+        display: block;
+        float: right;
+    }
+    footer {
+        color: white;
+        text-align: center;
+        line-height: inherit;
+        vertical-align: center;
+        background-color: #444444;
+        height: 10rem;
+        display: flex;
+        align-items: center;
+        justify-content: center }
+    }
+    nav div a.col-xs-12 {
+        font-size: 2rem;
+        text-align: center;
+        color: white;
+        display: block;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+}

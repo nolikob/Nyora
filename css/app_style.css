@@ -1,0 +1,67 @@
+body {
+    background: -webkit-linear-gradient(bottom right, #5856A1, #70DBEB);
+    background: -moz-linear-gradient(bottom right, #5856A1, #70DBEB);
+    background: -o-linear-gradient(bottom right, #5856A1, #70DBEB);
+    background: linear-gradient(to top left, #5856A1, #70DBEB); 
+    background-repeat: no-repeat;
+    background-size: 150vw 100vh;
+}
+
+@media(max-width: 768px) {
+    .navbar {
+        margin-left: -15px;
+        width: 100vw;
+    }
+    nav img {
+        transform: scale(0.5);
+        position: absolute;
+        left: 50%;
+        margin-left: -175px;
+        margin-top: -62.5px;        
+    }
+    .get-back {
+        margin-top: 15px;
+        transform: scale(1.5);
+        position: relative;
+        display: inline-block;
+        color: #666666;
+    }
+    .test_user {
+        float: right;
+        font-size: 2rem;
+        margin-top: 10px;
+    }
+
+}
+
+@media(min-width: 769px) {
+    #app_header {
+        height: 50px;
+        background: white;
+    }
+    #active_user{
+        display: block;
+        float: right;
+        font-size: 1.6rem;
+        color: #555555;
+    }
+    #big_logo {
+        position: absolute;
+        margin-top: -62.5px;
+        transform: scale(0.5);
+        left: 50%;
+        margin-left: -175px;
+    }
+    .get-back {
+        margin-top: 15px;
+        transform: scale(1.5);
+        position: relative;
+        display: inline-block;
+        color: #666666;
+    }
+    .test_user {
+        float: right;
+        font-size: 2rem;
+        margin-top: 10px;
+    }
+}
